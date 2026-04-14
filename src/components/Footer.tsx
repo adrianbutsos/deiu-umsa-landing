@@ -96,14 +96,14 @@ export default function Footer() {
           </p>
           <p className="text-xs text-gray-700 text-center">
             Built with{" "}
-            <span className="text-gray-600">Claude Web Builder</span> by{" "}
+            <span className="text-gray-600">Web Builder</span> by{" "}
             <a
-              href="https://tododeia.com"
+              href="https://www.instagram.com/tca.lapaz/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-500 transition-colors"
             >
-              Tododeia
+              TCA - IT DEPARTMENT
             </a>
           </p>
         </div>
