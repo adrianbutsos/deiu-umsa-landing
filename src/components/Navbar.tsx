@@ -65,13 +65,11 @@ export default function Navbar() {
 
         {/* Mobile menu */}
         <Sheet>
-          <SheetTrigger>
-            <button
-              className="md:hidden p-2 rounded hover:bg-gray-100 transition-colors"
-              aria-label="Abrir menú de navegación"
-            >
-              <Menu className="h-5 w-5" />
-            </button>
+          <SheetTrigger
+            className="md:hidden p-2 rounded hover:bg-gray-100 transition-colors"
+            aria-label="Abrir menú de navegación"
+          >
+            <Menu className="h-5 w-5" />
           </SheetTrigger>
           <SheetContent side="right" className="w-72">
             <div className="flex flex-col gap-6 mt-8">
